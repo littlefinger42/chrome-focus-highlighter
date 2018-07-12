@@ -1,0 +1,5 @@
+:focus {
+    -webkit-box-shadow:inset 0px 0px 0px 10px #f00!important;
+    -moz-box-shadow:inset 0px 0px 0px 10px #f00!important;
+    box-shadow:inset 0px 0px 0px 10px #f00!important;
+}

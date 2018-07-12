@@ -1,0 +1,27 @@
+{
+  "name": "Focus Highlighter",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Highlights where your keyboard focus is on the page",
+  "homepage_url": "http://l96.nl/",
+  "background": {
+    "scripts": [
+      "js/background.js"
+    ]
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "default_locale": "en",
+  "browser_action": {
+    "default_icon": "icons/icon19.png",
+    "default_title": "Highlight focus on page"
+  },
+  "permissions": [
+    "https://*/*",
+    "http://*/*",
+    "tabs"
+  ]
+}
